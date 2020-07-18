@@ -1,0 +1,137 @@
+html {
+    height: 100%;
+  }
+body{
+    background-color: #232323;
+    /* text-align: center; */
+    height:100%;
+    margin:0px 0px 0px 0px;
+    /* border-color: greenyellow;
+    border-style: dotted;
+    border-width: 10px; */
+    padding:0px 0px 0px 0px;
+    font-family: "Avenir","Courier New";
+}
+.container{
+    margin:0 auto;
+    max-width:800px;
+    padding-top: 1%;
+    /* height:100%;
+    border-color: crimson;
+    border-style: dotted;
+    border-width: 10px; */
+    /* background-color: cyan; */
+} 
+
+.square{
+    /* background-color: blueviolet; */
+     width:29%;
+     /*
+    border-color: crimson;
+    border-style: solid;
+    border-width: 0.1px; */
+    float:left;
+    padding-bottom: 30%;
+    margin:1.66%;
+    border-radius: 10%;
+    transition:background 0.2s;
+    
+}
+
+#colorDisp{
+    font-size:200%;
+    text-align:center;
+}
+
+h1{
+    color:white;
+    text-align:center;
+    margin:0;
+    font-weight: normal;
+
+    /* border-color: crimson;
+    border-style: dotted;
+    border-width: 10px; */
+}
+
+
+#stripe{
+    background-color:white;
+    height:35px;
+    color:black;
+    font-size:25px;
+
+    font-weight: 800;
+    text-align: center;
+     /* border-color: crimson;
+    border-style: dotted;
+    border-width: 10px; */
+    padding:0px;
+}
+
+@media only screen and (max-width: 850px) {
+   
+#stripe{
+    background-color:white;
+    height:35px;
+    color:black;
+    font-size:2.5vw;
+
+    font-weight: 800;
+    text-align: center;
+     /* border-color: crimson;
+    border-style: dotted;
+    border-width: 10px; */
+    padding:0px;
+    }
+
+    h1{
+        font-size:5vw;
+        }
+}
+.current{
+    background:steelblue;
+    color:white;
+}
+
+button{
+    border:none;
+    background: none;
+    height:100%;
+    color:steelblue;
+    font-size:100%;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition:all 0.2s;
+
+}
+
+p{
+    padding:0px;
+    margin-top:5px;
+    margin-bottom:0;
+    font-size:70%;
+}
+
+button:hover{
+    background-color:steelblue;
+    color:white
+}
+
+
+#message{
+    display: inline-block;
+    width: 30%;
+    /* font-size: 120%;
+    border-color: crimson;
+    border-style: dotted;
+    border-width: 1px; */
+    margin:0;
+}
+
+.menu{
+    padding-top: 20px;
+    padding-top: 20px;
+    transition:background 0.3s;
+}
+
