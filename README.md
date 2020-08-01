@@ -8,4 +8,10 @@ Barney Stinson voice effects have been added to avoid getting bored while playin
 ![Screenshot](sample.png)
 ## Instructions
 The game uses simple HTML,CSS ,JS. So ,no specific dependencies are present.
+To play the game, just clone this repository in your local machine.
+
+```git clone https://github.com/anmolagarwal999/RGB-Color-guessing-game```
+
+Then you can just open the HTML file in your browser and start playing.
+
 
